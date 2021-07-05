@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 960px;
+  margin: 20px auto;
+  background-color:navajowhite
+}
+aside {
+  display: inline-block;
+  width: 142px;
+  padding: 8px;
+  border-right: 1px solid gray;
+  vertical-align:top;
+  background-color: rgba(146, 106, 73, 0.925);
+  margin-top: 20px;
+}
+a{
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  
+}
+.content {
+  display: inline-block;
+  width: 800px;
+  padding: 0 200px 0 8px;
+  font-size: 12px;
+  text-align: justify;
+}
+h1 {
+  text-align: center;
+  font-size: 24px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-bottom: 10px;
+}
+h2 {
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.first-img {
+  width: 200px;
+  border-radius: 25px;
+  margin: 30px 0 20px 30px;
+}
+.early-life h3 {
+  font-style: italic;
+  padding: 0 0 7px 20px;
+}
+.early-life {
+  text-indent: 20px;
+}
+.studies h3 {
+  font-style: italic;
+  padding: 20px 0 7px 20px;
+}
+.studies {
+  text-indent: 20px;
+}
+.second-img {
+  width: 400px;
+  margin: 50px 250px;
+  transform: rotate(-5deg);
+}
+.third-img {
+  width: 150px;
+  margin: 0 0 10px 10px;
+  float: right;
+}
+.second-content {
+ text-indent: 20px;
+ margin-top: 30px;
+}
+table {
+  border-style: solid;
+  border-color: black;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  text-align: center;
+  margin-top: 10px;
+}
+td {
+  border-style: solid;
+  border-color: black;
+  padding: 0.5px;
+}
+th {
+  border-style: solid;
+  border-color: black;
+  padding: 0.5px;
+  text-align: center;
+  font-size: 1.3em;
+}
